@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <section>
+        <div class="container">
+            <div class="logo">
+                <h2>Vinicius</h2>
+                <h2>Empresa</h2>
+            </div>
+            <div class="login">
+                <div class="voltarLogin">
+                    <img src="img/setaVoltar.svg" alt="Icone de Voltar" width="14" onclick="voltar()">
+                    <Button onclick="voltar()">Voltar</Button>
+                </div>
+                <div class="textoBemVindo">
+                    <h1>Bem-vindo(a) ao Vinicius Empresa!</h1>
+                    <p>Faça o login para acessar sua conta.</p>
+                </div>
+                <form class="form">
+                    <div class="dados">
+                        <input type="text" name="" id="usuario" class="input" required>
+                        <label for="usuario">Entre com seu usuário</label>
+                    </div>
+                    <div class="dados">
+                        <input type="password" name="" id="senha" class="input" required>
+                        <label for="senha">Entre com sua senha</label>
+                    </div>
+                    <div class="botaoEnviar">
+                        <button type="submit" onclick="logar(); return false">Acessar minha conta</button>
+                        <!-- <input type="submit" onclick="logar(); return false" value="Acessar minha conta"> -->
+                    </div>
+                </form>
+                <div class="botaoEsqueceu">
+                    <button onclick="esqueceuSenha()">Esqueci minha senha</button>
+                </div>
+            </div>
+    </section>
+
+    <!-- <div class="inputsLogin">
+                <label for="usuario">Entre com seu usuário</label>
+                <div class="campoUsuario">
+                    <input type="text" required>
+                </div>
+                <label for="senha">Entre com sua senha</label>
+                <div class="campoSenha">
+                    <input type="password" required>
+                </div>
+            </div>
+
+            <div class="botoesLogin">
+                <div class="botaoAcesso">
+                    <button type="submit">Acessar minha conta</button>
+                </div>
+                <div class="botaoEsqueceuSenha">
+                    <button>Esqueci minha senha</button>
+                </div>
+            </div> -->
+    </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
